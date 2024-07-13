@@ -1,0 +1,47 @@
+/* src/components/NewRecordModal.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 500px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .modal h2 {
+    margin-bottom: 20px;
+  }
+  
+  .modal input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    font-size: 16px;
+  }
+  
+  .modal button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .modal button:hover {
+    background-color: #45a049;
+  }
+  
